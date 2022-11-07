@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: linear-gradient(to right, #fff, #000);
+}
+#container{
+    display: flex;
+    width: 100%;
+    height: 80vh;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.searchFilm, .showFilm{
+    background-color: rgba(255,255,255,.2);
+    border-radius: 25px;
+    width: 35%;
+    height: 80%;
+    word-break: break-all;
+    padding: 25px;
+}
+.titlePrinc{
+    color: #f00;
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 15%;
+}
+.subTitlePrinc{
+    margin-bottom: 5%;
+    text-align: center;
+}
+.pPrinc{
+    font-size: 25px;
+    margin-bottom: 15%;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+.inputFilm, .btnFilm{
+    padding: 15px;
+    border: none;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 15px;
+}
+.inputFilm{
+    background-color: #ddd;
+}
+.btnFilm{
+    color: #fff;
+    background-color: #f00;
+}
+.showFilm{
+    text-align: center;
+}
+.imgFilm{
+    height: 30%;
+}
+.showFilm p{
+    font-size: 20px;
+    margin-top: 25px;
+}
+.errorFilm{
+    font-size: 35px;
+    color: #f00;
+}
